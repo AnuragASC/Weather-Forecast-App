@@ -4,11 +4,11 @@ Welcome to the Weather Forecast App! This application provides real-time weather
 
 # Features
 
-Real-time weather information
-Displays temperature in Celsius or Fahrenheit
-Shows weather conditions, UV index, wind status, humidity, visibility, and air quality
-Daily and weekly forecasts
-Dynamic background and icons based on weather conditions
+1.Real-time weather information
+2.Displays temperature in Celsius or Fahrenheit
+3.Shows weather conditions, UV index, wind status, humidity, visibility, and air quality
+4.Daily and weekly forecasts
+5.Dynamic background and icons based on weather conditions
 
 # Installation
 
@@ -24,27 +24,26 @@ cd weather-forecast-app
 
 # Usage
 
-Enter the name of the city in the search bar and press enter or click the search button.
-The app will display the current weather information and forecast for the entered city.
-Use the toggle buttons to switch between Celsius and Fahrenheit.
-Switch between daily and weekly forecasts using the respective buttons.
+1.Enter the name of the city in the search bar and press enter or click the search button.
+2.The app will display the current weather information and forecast for the entered city.
+3.Use the toggle buttons to switch between Celsius and Fahrenheit.
+4.Switch between daily and weekly forecasts using the respective buttons.
 
 # API Reference
 
 This application uses the Visual Crossing Weather API to fetch weather data.
 
-Base URL: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/
-Example endpoint: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{city}?unitGroup=metric&key={API_KEY}&contentType=json
-Replace {city} with the desired city and {API_KEY} with your Visual Crossing API key.
+-Base URL: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/
+-Example endpoint: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{city}?unitGroup=metric&key={API_KEY}&contentType=json
+-Replace {city} with the desired city and {API_KEY} with your Visual Crossing API key.
 
 # File Structure
 
-weather-forecast-app/
-│
-├── index.html      # Main HTML file
-├── style.css       # CSS styles
-├── script.js       # JavaScript file
-└── README.md       # Project README file
+weather-forecast-app
+ -index.html      # Main HTML file
+ -style.css       # CSS styles
+ -script.js       # JavaScript file
+ -README.md       # Project README file
 
 # Code Explanation
 
