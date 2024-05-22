@@ -49,6 +49,7 @@ This application uses the Visual Crossing Weather API to fetch weather data.
 # File Structure
 
 weather-forecast-app
+
  -index.html      # Main HTML file
  
  -style.css       # CSS styles
